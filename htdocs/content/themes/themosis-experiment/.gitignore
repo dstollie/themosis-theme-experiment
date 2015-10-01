@@ -6,3 +6,6 @@ Thumbs.db
 # Theme
 vendor/
 composer.lock
+
+# Bower
+app/assets/bower/

@@ -1,0 +1,22 @@
+{
+  "name": "themosis-experiment",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dstollie/themosis-theme-experiment",
+  "authors": [
+    "Dennis Stolmeijer <dstollie@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.2"
+  }
+}
