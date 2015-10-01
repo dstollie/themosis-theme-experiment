@@ -2,6 +2,11 @@
 
 class BaseController extends Controller
 {
+    public function __construct() {
+        Asset::add('foundation-css', 'bower/foundation/css/foundation.css', false, '1.0', 'all');
+        Asset::add('foundation-js', 'bower/foundation/js/foundation.min.js', array('jquery'), '1.0', true);
+    }
+
     /**
      * Setup the layout used by the controller.
      *
@@ -14,4 +19,4 @@ class BaseController extends Controller
             $this->layout = View::make($this->layout);
         }
     }
-} 
+}
