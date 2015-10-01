@@ -39,5 +39,13 @@
 			"htdocs/content/themes/{$name}/": ["type:wordpress-theme"]
 		},
 		"wordpress-install-dir": "htdocs/cms"
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"cd htdocs/content/themes/themosis-experiment; bower install"
+		],
+		"post-update-cmd": [
+			"cd htdocs/content/themes/themosis-experiment; bower install"
+		]
 	}
 }
