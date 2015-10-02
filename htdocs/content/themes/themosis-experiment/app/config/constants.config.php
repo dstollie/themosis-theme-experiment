@@ -14,6 +14,11 @@ return array(
 	/*
 	 * Write here your Post Type slugs
 	 */
-	'GANGSTER_POST_TYPE' => 'gangsters'
+	'GANGSTER_POST_TYPE' => 'gangsters',
+
+	/*
+	 * Write here your Taxonomy slugs
+	 */
+	'CARTEL_TAXONOMY' => 'cartels'
 
 );

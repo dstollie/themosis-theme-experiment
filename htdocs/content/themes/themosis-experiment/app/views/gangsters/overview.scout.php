@@ -15,7 +15,7 @@
         @foreach($gangsters as $gangster)
 
             <tr>
-                <td>{{ $gangster->post_title }}</td>
+                <td><a href="{{ get_permalink($gangster->ID) }}">{{ $gangster->post_title }}</a></td>
             </tr>
 
         @endforeach

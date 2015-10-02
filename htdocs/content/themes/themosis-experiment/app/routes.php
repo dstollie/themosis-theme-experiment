@@ -18,6 +18,11 @@ Route::get('home', 'WelcomeController@index');
 Route::get('template', array('kitchensink', 'uses' => 'HomeController@kitchensink'));
 
 /**
+ * Route for an overview of all the gangsters
+ */
+Route::get('singular', array(GANGSTER_POST_TYPE, 'uses' => 'GangsterController@single'));
+
+/**
  * Route for the default pages
  */
 Route::get('page', 'HomeController@defaultPage');
@@ -26,8 +31,3 @@ Route::get('page', 'HomeController@defaultPage');
  * Route for an overview of all the gangsters
  */
 Route::get('postTypeArchive', array(GANGSTER_POST_TYPE, 'uses' => 'GangsterController@overview'));
-
-/**
- * Route for an overview of all the gangsters
- */
-Route::get('single', array(GANGSTER_POST_TYPE, 'uses' => 'GangsterController@single'));

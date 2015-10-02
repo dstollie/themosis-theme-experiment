@@ -11,7 +11,7 @@ return array(
 	/* --------------------------------------------------------------- */
 	// Enable post thumbnails
 	/* --------------------------------------------------------------- */
-	'post-thumbnails' => array('post'),
+	'post-thumbnails' => array('post', 'gangsters'),
 
 	/* --------------------------------------------------------------- */
 	// Enable post formats (aside, gallery, link, image, ...)
