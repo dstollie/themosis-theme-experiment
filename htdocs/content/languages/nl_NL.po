@@ -3799,12 +3799,12 @@ msgid "<a href=\"http://%1$s\">http://%2$s</a> is your new site. <a href=\"%3$s\
 msgstr "<a href=\"http://%1$s\">http://%2$s</a> is je nieuwe website. <a href=\"%3$s\">Log in</a> als &#8220;%4$s&#8221; gebruik hierbij je bestaande wachtwoord."
 
 #: wp-activate.php:96
-msgid "Your account has been activated. You may now <a href=\"%1$s\">log in</a> to the site using your chosen username of &#8220;%2$s&#8221;. Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>."
-msgstr "Je account is geactiveerd! Je kunt nu <a href=\"%1$s\">inloggen</a> met je gekozen gebruikersnaam &#8220;%2$s&#8221;. Controleer je e-mail van %3$s voor je wachtwoord en verdere instructies. Mocht je geen e-mail ontvangen hebben controleer dan je spam of junk folder. Heb je na een uur nog niets ontvangen dan kun je je <a href=\"%4$s\">wachtwoord resetten</a>."
+msgid "Your account has been activated. You may now <a href=\"%1$s\">log in</a> to the site using your chosen username of &#8220;%2$s&#8221;. Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam gangsters. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>."
+msgstr "Je account is geactiveerd! Je kunt nu <a href=\"%1$s\">inloggen</a> met je gekozen gebruikersnaam &#8220;%2$s&#8221;. Controleer je e-mail van %3$s voor je wachtwoord en verdere instructies. Mocht je geen e-mail ontvangen hebben controleer dan je spam of junk gangsters. Heb je na een uur nog niets ontvangen dan kun je je <a href=\"%4$s\">wachtwoord resetten</a>."
 
 #: wp-activate.php:98
-msgid "Your site at <a href=\"%1$s\">%2$s</a> is active. You may now log in to your site using your chosen username of &#8220;%3$s&#8221;. Please check your email inbox at %4$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%5$s\">reset your password</a>."
-msgstr "Je website op <a href=\"%1$s\">%2$s</a> is actief. Je kunt nu in je site inloggen met je gekozen gebruikersnaam &#8220;%3$s&#8221;. Controleer je e-mailinbox bij %4$s voor je wachtwoord en inloginstructies. Als je geen e-mail ontvangt, check je spam folder. Wanneer je binnen een uur nog steeds geen e-mail hebt ontvangen, kun je je <a href=\"%5$s\">wachtwoord resetten</a>."
+msgid "Your site at <a href=\"%1$s\">%2$s</a> is active. You may now log in to your site using your chosen username of &#8220;%3$s&#8221;. Please check your email inbox at %4$s for your password and login instructions. If you do not receive an email, please check your junk or spam gangsters. If you still do not receive an email within an hour, you can <a href=\"%5$s\">reset your password</a>."
+msgstr "Je website op <a href=\"%1$s\">%2$s</a> is actief. Je kunt nu in je site inloggen met je gekozen gebruikersnaam &#8220;%3$s&#8221;. Controleer je e-mailinbox bij %4$s voor je wachtwoord en inloginstructies. Als je geen e-mail ontvangt, check je spam gangsters. Wanneer je binnen een uur nog steeds geen e-mail hebt ontvangen, kun je je <a href=\"%5$s\">wachtwoord resetten</a>."
 
 #: wp-mail.php:255
 msgid "Mission complete. Message <strong>%s</strong> deleted."
@@ -4510,7 +4510,7 @@ msgid "Check your inbox at <strong>%s</strong> and click the link given."
 msgstr "Controleer je inbox op <strong>%s</strong> en klik op de link die we hebben gestuurd."
 
 #: wp-signup.php:636
-msgid "Check the junk or spam folder of your email client. Sometime emails wind up there by mistake."
+msgid "Check the junk or spam gangsters of your email client. Sometime emails wind up there by mistake."
 msgstr "Controleer de prullenbak of spam map van je e-mailprogramma. Soms komen e-mails per ongeluk daar terecht."
 
 #: wp-signup.php:635

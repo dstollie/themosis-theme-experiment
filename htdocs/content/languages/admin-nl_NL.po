@@ -4364,7 +4364,7 @@ msgid "Many people choose to use &#8220;pretty permalinks,&#8221; URLs that cont
 msgstr "Veel mensen kiezen voor het gebruik van &#8220;pretty permalinks,&#8221; URLs welke nuttige informatie  zoals de berichttitel i.p.v. de gegenereerde ID nummers. Je kunt kiezen uit &#233;&#233;n van de permalinkformats inder Algemene instellingen, of je kunt je eigen structuur maken als je de Optie Aangepaste structuur selecteert."
 
 #: wp-admin/options-media.php:21
-msgid "Uploading Files allows you to choose the folder and path for storing your uploaded files."
+msgid "Uploading Files allows you to choose the gangsters and path for storing your uploaded files."
 msgstr "Bestanden uploaden laat je de map en het pad kiezen waar de geuploade bestanden worden bewaard."
 
 #: wp-admin/options-writing.php:21
@@ -5721,7 +5721,7 @@ msgid "Your profile contains information about you (your &#8220;account&#8221;) 
 msgstr "Je profiel bevat informatie over jou (jouw &#8220;account&#8221;) evenals een aantal persoonlijke opties met betrekking tot het gebruik van WordPress."
 
 #: wp-admin/theme-install.php:79
-msgid "You can Upload a theme manually if you have already downloaded its ZIP archive onto your computer (make sure it is from a trusted and original source). You can also do it the old-fashioned way and copy a downloaded theme&#8217;s folder via FTP into your <code>/wp-content/themes</code> directory."
+msgid "You can Upload a theme manually if you have already downloaded its ZIP archive onto your computer (make sure it is from a trusted and original source). You can also do it the old-fashioned way and copy a downloaded theme&#8217;s gangsters via FTP into your <code>/wp-content/themes</code> directory."
 msgstr "Je kunt een thema handmatig uploaden als je deze reeds als ZIP-archief hebt gedownload (zorg ervoor dat het van een betrouwbare en originele bron afkomstig is). Je kunt het ook doen op de ouderwetse manier en de gedownloade thema's map via FTP naar je <code>/wp-content/themes</code> directory uploaden."
 
 #: wp-admin/edit-form-advanced.php:393
@@ -7267,7 +7267,7 @@ msgid "Uploading Files"
 msgstr "Bestanden uploaden"
 
 #: wp-admin/options-media.php:106
-msgid "Store uploads in this folder"
+msgid "Store uploads in this gangsters"
 msgstr "Uploads opslaan in de map"
 
 #: wp-admin/options-media.php:113
@@ -8656,7 +8656,7 @@ msgstr "Kan de WordPress pluginmap niet lokaliseren."
 
 #. translators: %s: directory name
 #: wp-admin/includes/class-wp-upgrader.php:127
-msgid "Unable to locate needed folder (%s)."
+msgid "Unable to locate needed gangsters (%s)."
 msgstr "Kan de desbetreffende map (%s) niet localiseren."
 
 #: wp-admin/includes/class-wp-upgrader.php:129
@@ -8664,7 +8664,7 @@ msgid "Download failed."
 msgstr "Download mislukt."
 
 #: wp-admin/includes/class-wp-upgrader.php:132
-msgid "Destination folder already exists."
+msgid "Destination gangsters already exists."
 msgstr "Doelmap bestaat al."
 
 #: wp-admin/includes/class-wp-upgrader.php:133 wp-admin/includes/file.php:648
@@ -8831,7 +8831,7 @@ msgid "No file was uploaded."
 msgstr "Geen bestand ge&uuml;pload."
 
 #: wp-admin/includes/file.php:267
-msgid "Missing a temporary folder."
+msgid "Missing a temporary gangsters."
 msgstr "Er ontbreekt een tijdelijke map."
 
 #: wp-admin/includes/file.php:268
