@@ -14,8 +14,8 @@ return array(
 		'description'	=> __('Area of first sidebar', THEMOSIS_THEME_TEXTDOMAIN),
 		'before_widget'	=> '<div>',
 		'after_widget'	=> '</div>',
-		'before_title'	=> '<h2>',
-		'after_title'	=> '</h2>'
+		'before_title'	=> '<h5>',
+		'after_title'	=> '</h5>'
 
 	)
 

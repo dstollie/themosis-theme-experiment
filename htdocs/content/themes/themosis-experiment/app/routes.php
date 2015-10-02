@@ -9,4 +9,15 @@
  *
  */
 
-Route::get('home', 'HomeController@index');
+Route::get('home', 'WelcomeController@index');
+
+/**
+ * Route for all pages which are attached to the "Kitchensink" page template.
+ */
+
+Route::get('template', array('kitchensink', 'uses' => 'HomeController@kitchensink'));
+
+/**
+ * Route for the default pages
+ */
+Route::get('page', 'HomeController@defaultPage');
