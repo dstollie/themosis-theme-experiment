@@ -4,13 +4,14 @@ use Themosis\Route\Controller;
 
 class GangsterController extends BaseController
 {
-    public function overview() {
+    public function overview()
+    {
         $gangsters = GangsterModel::all();
-        td($gangsters);
-        return View::make('gangsters.overview');
+        return View::make('gangsters.overview', ['gangsters' => $gangsters]);
     }
 
-    public function single() {
+    public function single()
+    {
         return View::make('gangsters.single');
     }
 }

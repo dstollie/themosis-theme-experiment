@@ -30,4 +30,4 @@ Route::get('postTypeArchive', array(GANGSTER_POST_TYPE, 'uses' => 'GangsterContr
 /**
  * Route for an overview of all the gangsters
  */
-Route::get('singular', array(GANGSTER_POST_TYPE, 'uses' => 'GangsterController@single'));
+Route::get('single', array(GANGSTER_POST_TYPE, 'uses' => 'GangsterController@single'));
