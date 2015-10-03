@@ -7,3 +7,7 @@ Version: 1.0
 Author URI: http://framework.themosis.com/
 */
 require_once(WPMU_PLUGIN_DIR.'/themosis-framework/themosis.php');
+
+require_once(WPMU_PLUGIN_DIR.'/cleanup/cleanup.php');
+
+require_once(WPMU_PLUGIN_DIR.'/impres/impres.php');
