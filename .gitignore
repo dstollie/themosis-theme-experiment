@@ -20,4 +20,4 @@ composer.lock
 
 ### Environment Credentials
 .env.*.php
-!.env.local.php
+.env.*.php.old

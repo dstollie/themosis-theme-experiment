@@ -1,51 +1,70 @@
 {
-	"name": "themosis/themosis",
-	"description": "The Themosis framework. A framework for WordPress developers.",
-	"keywords": ["themosis", "framework", "WordPress"],
-	"license": "GPL-2.0+",
-	"authors": [
-		{
-			"name": "Julien Lambé",
-			"email": "julien@themosis.com",
-			"homepage": "http://www.themosis.com/"
-		}
-	],
-	"type": "project",
-	"repositories":[
-		{
-			"type": "composer",
-			"url": "http://wpackagist.org"
-		}
-	],
-	"autoload": {
-		"psr-0": {
-			"Thms": "library"
-		}
-	},
-	"config": {
-		"preferred-install": "dist"
-	},
-	"require": {
-		"php": ">=5.4",
-		"johnpbloch/wordpress": ">=4.1",
-		"themosis/framework": "1.1.*",
-		"themosis/theme": "1.1.*"
-	},
-	"extra":{
-		"installer-paths":{
-			"htdocs/content/mu-plugins/themosis-{$name}/": ["themosis/framework"],
-			"htdocs/content/plugins/{$name}/": ["type:wordpress-plugin"],
-			"htdocs/content/themes/themosis-{$name}/": ["themosis/theme"],
-			"htdocs/content/themes/{$name}/": ["type:wordpress-theme"]
-		},
-		"wordpress-install-dir": "htdocs/cms"
-	},
-	"scripts": {
-		"post-install-cmd": [
-			"cd htdocs/content/themes/themosis-experiment; bower install"
-		],
-		"post-update-cmd": [
-			"cd htdocs/content/themes/themosis-experiment; bower install"
-		]
-	}
+  "name": "themosis/themosis",
+  "description": "The Themosis framework. A framework for WordPress developers.",
+  "keywords": [
+    "themosis",
+    "framework",
+    "WordPress"
+  ],
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Julien Lambé",
+      "email": "julien@themosis.com",
+      "homepage": "http://www.themosis.com/"
+    }
+  ],
+  "type": "project",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Thms": "library",
+      "Impres": "library"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": ">=4.1",
+    "themosis/framework": "1.1.*",
+    "themosis/theme": "1.1.*",
+    "cube/composer-dist-installer": "~1.0@beta"
+  },
+  "extra": {
+    "installer-paths": {
+      "htdocs/content/mu-plugins/themosis-{$name}/": [
+        "themosis/framework"
+      ],
+      "htdocs/content/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "htdocs/content/themes/themosis-{$name}/": [
+        "themosis/theme"
+      ],
+      "htdocs/content/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    },
+    "wordpress-install-dir": "htdocs/cms",
+    "dist-installer-params": {
+      "file": ".env.local.php"
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "Cube\\ComposerDistInstaller\\Bootstrap::install",
+      "cd htdocs/content/themes/themosis-experiment; bower install"
+    ],
+    "post-update-cmd": [
+      "Cube\\ComposerDistInstaller\\Bootstrap::install",
+      "cd htdocs/content/themes/themosis-experiment; bower install"
+    ]
+  }
 }
