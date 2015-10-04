@@ -16,8 +16,13 @@ return array(
     'GangsterController'    => themosis_path('app').'controllers'.DS.'GangsterController.php',
 
     // Models
+    'Model'                 => themosis_path('app').'models'.DS.'Model.php',
     'Post'                  => themosis_path('app').'models'.DS.'Post.php',
-    'PostModel'       => themosis_path('app').'models'.DS.'PostModel.php',
+    'PostMeta'              => themosis_path('app').'models'.DS.'PostMeta.php',
+    'Comment'               => themosis_path('app').'models'.DS.'Comment.php',
+    'User'                  => themosis_path('app').'models'.DS.'User.php',
+    'UserMeta'              => themosis_path('app').'models'.DS.'UserMeta.php',
+    'PostModel'             => themosis_path('app').'models'.DS.'PostModel.php',
     'GangsterModel'         => themosis_path('app').'models'.DS.'GangsterModel.php',
 
     // Miscellaneous

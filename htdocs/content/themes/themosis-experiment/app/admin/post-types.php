@@ -9,7 +9,7 @@
 PostType::make(GANGSTER_POST_TYPE, 'Gangstahs', 'Gangstah')->set(array(
     'public'        => true,
     'menu_position' => 20,
-    'supports'      => array('title', 'editor', 'thumbnail'),
+    'supports'      => array('title', 'editor', 'thumbnail', 'comments'),
     'menu_icon'     => themosis_assets() . '/images/icon-gangster.png',
     'has_archive'   => true
 ));

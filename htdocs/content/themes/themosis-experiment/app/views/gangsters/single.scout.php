@@ -16,4 +16,8 @@
 
     @endloop
 
+<?php comment_form(); ?>
+
+    @include('includes.comments')
+
 @stop

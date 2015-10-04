@@ -4,4 +4,8 @@
  * application.php - Write your custom code below.
  */
 
-add_theme_support('post-thumbnails');
+function my_comment_form( $post_id ) {
+    return "heyy";
+}
+
+add_action( "comment_form", "my_comment_form" );
