@@ -16,8 +16,9 @@ return array(
     'GangsterController'    => themosis_path('app').'controllers'.DS.'GangsterController.php',
 
     // Models
-    'PostModel'             => themosis_path('app').'models'.DS.'PostModel.php',
-    'GangsterModel'             => themosis_path('app').'models'.DS.'GangsterModel.php',
+    'Post'                  => themosis_path('app').'models'.DS.'Post.php',
+    'PostModel'       => themosis_path('app').'models'.DS.'PostModel.php',
+    'GangsterModel'         => themosis_path('app').'models'.DS.'GangsterModel.php',
 
     // Miscellaneous
 

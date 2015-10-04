@@ -13,6 +13,10 @@ class GangsterController extends BaseController
 
     public function single($post)
     {
-        return View::make('gangsters.single');
+        $gender = Meta::get($post->ID, 'gender')[0];
+
+        return View::make('gangsters.single', [
+            'gender' => $gender
+        ]);
     }
 }

@@ -35,7 +35,8 @@
     "johnpbloch/wordpress": ">=4.1",
     "themosis/framework": "1.1.*",
     "themosis/theme": "1.1.*",
-    "cube/composer-dist-installer": "~1.0@beta"
+    "cube/composer-dist-installer": "~1.0@beta",
+    "illuminate/database": "^5.1"
   },
   "extra": {
     "installer-paths": {
