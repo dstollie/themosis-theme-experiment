@@ -11,3 +11,5 @@ require_once(WPMU_PLUGIN_DIR.'/themosis-framework/themosis.php');
 require_once(WPMU_PLUGIN_DIR.'/cleanup/cleanup.php');
 
 require_once(WPMU_PLUGIN_DIR.'/impres/impres.php');
+
+require_once(WPMU_PLUGIN_DIR.'/posts-to-posts/posts-to-posts.php');

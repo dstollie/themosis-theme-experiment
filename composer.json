@@ -36,10 +36,14 @@
     "themosis/framework": "1.1.*",
     "themosis/theme": "1.1.*",
     "cube/composer-dist-installer": "~1.0@beta",
-    "illuminate/database": "^5.1"
+    "illuminate/database": "^5.1",
+    "wpackagist-plugin/posts-to-posts": "1.6.x"
   },
   "extra": {
     "installer-paths": {
+      "htdocs/content/mu-plugins/{$name}/" : [
+        "wpackagist-plugin/posts-to-posts"
+      ],
       "htdocs/content/mu-plugins/themosis-{$name}/": [
         "themosis/framework"
       ],

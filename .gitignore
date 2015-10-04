@@ -13,6 +13,7 @@ composer.lock
 /htdocs/cms/*
 !/htdocs/cms/.gitkeep
 /htdocs/content/mu-plugins/themosis-framework/
+/htdocs/content/mu-plugins/posts-to-posts/
 /htdocs/content/themes/themosis-theme/
 /htdocs/content/uploads/
 /htdocs/content/upgrade/
