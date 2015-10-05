@@ -28,6 +28,11 @@ Route::get('single', array('all-posts', 'uses' => 'HomeController@defaultArchive
 Route::get('singular', array(GANGSTER_POST_TYPE, 'uses' => 'GangsterController@single'));
 
 /**
+ * Route for an overview of all the gangsters
+ */
+Route::get('singular', 'HomeController@defaultPost');
+
+/**
  * Route for the default pages
  */
 Route::get('page', 'HomeController@defaultPage');

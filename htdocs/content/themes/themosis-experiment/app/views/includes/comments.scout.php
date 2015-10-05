@@ -1,3 +1,6 @@
-<h2>Comment Form </h2>
+@if (comments_open())
+    <h2>Comment Form </h2>
 
-<?php comment_form(); ?>
+    <?php comments_template(); ?>
+    <?php comment_form(); ?>
+@endif

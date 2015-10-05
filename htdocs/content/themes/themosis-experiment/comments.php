@@ -5,6 +5,8 @@
  * entered the password we will return early without loading the comments.
  */
 
+echo "test";
+
 if ( post_password_required() )
     return;
 ?>

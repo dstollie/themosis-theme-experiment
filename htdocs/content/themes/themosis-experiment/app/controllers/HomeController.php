@@ -10,6 +10,10 @@ class HomeController extends BaseController
         return View::make('page');
     }
 
+    public function defaultPost() {
+        return View::make('single');
+    }
+
     public function defaultArchive() {
 //        $posts = PostModel::all();
         $posts = Post::all();
